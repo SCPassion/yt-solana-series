@@ -1,3 +1,5 @@
+// This script generates a new keypair and prints the public and secret keys.
+
 import { Keypair } from "@solana/web3.js";
 
 const keypair = Keypair.generate(); // generate a fresh keypair
