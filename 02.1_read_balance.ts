@@ -1,10 +1,5 @@
 import { getKeypairFromEnvironment } from "@solana-developers/helpers";
-import {
-  clusterApiUrl,
-  PublicKey,
-  Connection,
-  LAMPORTS_PER_SOL,
-} from "@solana/web3.js";
+import { clusterApiUrl, Connection, LAMPORTS_PER_SOL } from "@solana/web3.js";
 import "dotenv/config";
 
 const keyPair = process.env.KEYPAIR || null;
